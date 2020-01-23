@@ -25,48 +25,13 @@
 <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#563d7c">
 
+     <link rel="stylesheet" href="estilo.css"> 
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      
-      
-    #rodape{
-      clear:      both;
-    border-top: 1px solid #606060;
-      }
-
-    #rodape p{
-        text-align: center;
-     }
-      
-     img{
-      padding-top: 30% ;
-      
-      
-      }
-   
-      
-      
-    </style>
-    <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" >
   </head>
   
-  <body>
+  <body >
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" href="portifolioTeste.html">Vinicius Farias</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,39 +42,96 @@
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="Contato.html">Contato <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link" href="Contato.html">Contato </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="skill.html">Skill</a>
       </li>
       <li class="nav-item">
-         <a class="nav-link" href="sobre.html">Sobre</a>
+         <a class="nav-link" href="Projeto.html">Projeto</a>
       </li>
      
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+  
 </nav>
 
-
-<main role="main" class="container">
-
-
+<div class="row">
+<!-- java -->
+ <div class="col-md-4">
   <div class="starter-template">
-   <img src="Vinicius.jpeg"> 
-    <h1>Sobre</h1>
+  <a href=""><img src="github.png"width="20%"> </a>
+    <h1>Projeto</h1>
+    <h2>Polimorfismo java</h2>
+
+    <p class="lead">Este site foi feito para auxiliar no meu conhecimento em java,web e spring.<br> espero que você goste do que está vendo. </p>
+  </div>
+  </div>
+
+
+ <div class="col-md-4">
+  <div class="starter-template">
+   <a href=""><img src="github.png"width="20%"> </a>
+    <h1>Projeto</h1>
+    <h2>Herança java</h2>
+
+    <p class="lead">Este site foi feito para auxiliar no meu conhecimento em java,web e spring.<br> espero que você goste do que está vendo. </p>
+  </div>
+  </div>
+ 
+ 
+
+
+ <div class="col-md-4">
+  <div class="starter-template">
+   <a href=""><img src="github.png"width="20%"> </a>
+    <h1>Projeto</h1>
+    <h2>MVC java</h2>
    
     <p class="lead">Este site foi feito para auxiliar no meu conhecimento em java,web e spring.<br> espero que você goste do que está vendo. </p>
   </div>
-
-</main><!-- /.container -->
-
+  </div>
 
 
+
+  <!-- c# -->
+
+
+
+    <div class="col-md-4">
+  <div class="starter-template">
+      <a href=""><img src="github.png"width="20%"> </a>
+    <h1>Projeto</h1>
+   <h2>Polimorfismo C#</h2>
+    <p class="lead">Este site foi feito para auxiliar no meu conhecimento em java,web e spring.<br> espero que você goste do que está vendo. </p>
+  </div>
+  </div>
+
+
+  <div class="col-md-4">
+  <div class="starter-template">
+   <a href=""><img src="github.png"width="20%"> </a>
+    <h1>Projeto</h1>
+    <h2>Herança C#</h2>
+
+    <p class="lead">Este site foi feito para auxiliar no meu conhecimento em java,web e spring.<br> espero que você goste do que está vendo. </p>
+  </div>
+  </div>
+
+
+
+<div class="col-md-4">
+  <div class="starter-template">
+   <a href=""><img src="github.png"width="20%"> </a>
+    <h1>Projeto</h1>
+    <h2>POO C#</h2>
+   
+    <p class="lead">Este site foi feito para auxiliar no meu conhecimento em java,web e spring.<br> espero que você goste do que está vendo. </p>
+  </div>
+  </div>
+
+
+</div>
 <footer id="rodape">
 <p>Copyright &copy; 2020 - by Vinicius Farias<br><a href="https://www.linkedin.com/in/vin%C3%ADcius-farias-santos-310083180/" tager="_blank">linkedin</a> | <a href="https://github.com/ViniciusFariasSantos" tager="_blank">Github </a></p>
 
@@ -120,6 +142,16 @@
       <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script></body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
 
 
 

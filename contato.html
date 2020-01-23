@@ -23,49 +23,17 @@
 <link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
 <link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
 <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
-<meta name="theme-color" content="#563d7c">
+<meta name="theme-color" content="#563d7c">    
 
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      
-      
-    #rodape{
-      clear:      both;
-    border-top: 1px solid #606060;
-      }
-
-    #rodape p{
-        text-align: center;
-     }
-      
-     img{
-      padding-top: 30% ;
-      
-      
-      }
-   
-      
-      
-    </style>
-    <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="estilo.css"> 
+
+
   </head>
-  
+    <!-- Custom styles for this template -->
+
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" href="portifolioTeste.html">Vinicius Farias</a>
@@ -77,22 +45,18 @@
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="Contato.html">Contato <span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class="nav-link" href="Contato.html">Contato</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="skill.html">Skill</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="sobre.html"></a>
+       <a class="nav-link" href="Projeto.html">Projeto</a>
       </li>
      
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+   
 </nav>
 
 
@@ -100,15 +64,37 @@
 
 
   <div class="starter-template">
-   <img src="cellphone.png"> 
-    <h1>Contato</h1>
+   <img src="cellphone.png" width="20%"> 
    
-    <p class="lead">Este site foi feito para auxiliar no meu conhecimento em java,web e spring.<br> espero que você goste do que está vendo. </p>
+   
+
+
+<div class="col-md-6">
+   
+  <form action="processa.php" method="post">
+
+<h1>Contato</h1>
+   <p> <label for="cNome">Nome:</label>
+    <input type="text" name="text01" id="cNome" placeholder="Nome" size="80"></p>
+     
+        <br>
+  
+  <p><label> E-mail:</label>
+    <input type="text" name="text02" placeholder="E-mail" size="80"></p>
+<br> <br>
+
+  <p> <label>Mensagem:</label>
+      <textarea name="tMsg" id="cMsg"  cols="82" rows="12"  placeholder="Deixa aqui sua Mensagem" ></textarea></p>
+ <br> <br>
+  
+<p><input type="submit" value="Enviar" name="submit"></p>
   </div>
 
+  </div>       
+
+
 </main><!-- /.container -->
-
-
+</form>
 
 <footer id="rodape">
 <p>Copyright &copy; 2020 - by Vinicius Farias<br><a href="https://www.linkedin.com/in/vin%C3%ADcius-farias-santos-310083180/" tager="_blank">linkedin</a> | <a href="https://github.com/ViniciusFariasSantos" tager="_blank">Github </a></p>
