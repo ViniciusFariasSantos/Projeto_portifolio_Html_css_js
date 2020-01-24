@@ -26,9 +26,9 @@
      }
       
   
-    body{
+    body{  
      padding-top: 10%;
-     background-image: url(wallpaper-azul-papel-de-parede-azul-fundo-13.jpg);
+     background-image: url('/img/wallpaper-azul-papel-de-parede-azul-fundo-13.jpg');
      background-repeat: no-repeat;
      background-attachment: fixed;
    }
